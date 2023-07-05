@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "fr.iglee42.fixcreateroller.mixins",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "FixCreateRoller.refmap.json",
+  "mixins": [
+    "RollerBehaviourMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
